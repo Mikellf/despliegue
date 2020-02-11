@@ -6,10 +6,16 @@ use PHPUnit\Framework\TestCase;
 
 class SaludoTest extends TestCase {
 
+    public function testSumar()
+    {
+
+        $calculadora = new Calculadora();
+        $this->assertEquals($calculadora->sumar(10, 10), 20);
+    }
     
 }
 
-// Clase vacía para primer commit
+
 
 
 ?>
