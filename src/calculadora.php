@@ -33,10 +33,31 @@
 
 class Calculadora
 {
-    
+    /**
+     * Doc comment for function sumar.
+     * 
+     * @param $num1 sumando
+     * @param $num2 sumando
+     * 
+     * @return $resultado
+     */
     function sumar($num1, $num2) 
     {
         $resultado = $num1+$num2;
+        return $resultado;
+    }
+
+    /**
+     * Doc comment for function restar.
+     * 
+     * @param $num1 sustraendo
+     * @param $num2 sustraendo
+     * 
+     * @return $resultado
+     */
+    function restar($num1, $num2) 
+    {
+        $resultado = $num1-$num2;
         return $resultado;
     }
 
