@@ -1,7 +1,8 @@
 <?php 
 
 /**
- 
+ * Doc comment short description: ejercicio de despliegue
+ * 
  * PHP version 7.4
  *
  * LICENSE: This source file is subject to version 3.01 of the PHP license
@@ -10,31 +11,30 @@
  * the PHP License and are unable to obtain it through the web, please
  * send a note to license@php.net so we can mail you a copy immediately.
  *
- * @category   Calculadora
- * @package    Calculadora
- * @author     Mikellf <mikellf2000@hotmail.com>
- * @copyright  2020 Arista Web Studio
- * @license    http://www.php.net/license/3_01.txt  PHP License 3.01
- * @link       http://pear.php.net/package/PackageName
+ * @category  Calculadora
+ * @package   Calculadora
+ * @author    Mikellf <mikellf2000@hotmail.com>
+ * @copyright 2020 Arista Web Studio
+ * @license   http://www.php.net/license/3_01.txt  PHP License 3.01
+ * @link      http://pear.php.net/package/PackageName
  */
 
 
 /**
  * Short description for class
  *
- *
- * @category   Calculadora
- * @package    Calculadora
- * @author     Mikellf <mikellf2000@hotmail.com>
- * @copyright  2020 Arista Web Studio
- * @license    http://www.php.net/license/3_01.txt  PHP License 3.01
- * @link       http://pear.php.net/package/PackageName
+ * @category  Calculadora
+ * @package   Calculadora
+ * @author    Mikellf <mikellf2000@hotmail.com>
+ * @copyright 2020 Arista Web Studio
+ * @license   http://www.php.net/license/3_01.txt  PHP License 3.01
+ * @link      http://pear.php.net/package/PackageName
  */
 
-class Calculadora 
+class Calculadora
 {
-    //Métodos
-    function sumar($num1, $num2)
+    
+    function sumar($num1, $num2) 
     {
         $resultado = $num1+$num2;
         return $resultado;
