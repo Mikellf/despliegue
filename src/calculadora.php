@@ -61,6 +61,20 @@ class Calculadora
         return $resultado;
     }
 
+     /**
+      * Doc comment for function multiplicar.
+      * 
+      * @param $num1 producto
+      * @param $num2 producto
+      * 
+      * @return $resultado
+      */
+    function multiplicar($num1, $num2) 
+    {
+        $resultado = $num1*$num2;
+        return $resultado;
+    }
+
 
 }
 

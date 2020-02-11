@@ -22,6 +22,13 @@ class SaludoTest extends TestCase {
         $calculadora = new Calculadora();
         $this->assertEquals($calculadora->restar(20, 10), 10);
     }
+
+    public function testMultiplicar()
+    {
+
+        $calculadora = new Calculadora();
+        $this->assertEquals($calculadora->multiplicar(10, 10), 100);
+    }
     
 }
 
