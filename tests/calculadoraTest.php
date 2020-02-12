@@ -29,6 +29,13 @@ class SaludoTest extends TestCase {
         $calculadora = new Calculadora();
         $this->assertEquals($calculadora->multiplicar(10, 10), 100);
     }
+
+    public function testDividir()
+    {
+
+        $calculadora = new Calculadora();
+        $this->assertEquals($calculadora->dividir(200, 4), 50);
+    }
     
 }
 
