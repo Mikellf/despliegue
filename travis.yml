@@ -6,6 +6,10 @@ php:
 	-7.2
 	-hhvm
 
+#before_install:
+
+#install:
+
 before_script:
 	-travis_retry composer self-update
 	-travis_retry composer install --no-interaction --prefer-source --dev
@@ -15,3 +19,18 @@ script:
 
 after_success:
 	-bash <(curl -s https://codecov.io/bash)
+
+
+#after_failure:
+
+#after_script:
+
+#before_deploy:
+
+deploy:
+	provider:pages
+	skip-cleanup: true
+	github-token: $GITHUB_TOKEN
+	on:
+		branch: gh-pages
+#after_deploy:
