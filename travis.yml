@@ -4,26 +4,14 @@ php:
 	-7.0
 	-7.1
 	-7.2
-	-hhvm
+	-7.3
+	-7.4
 
-#before_install:
-
-#install:
 
 before_script:
-	-travis_retry composer self-update
-	-travis_retry composer install --no-interaction --prefer-source --dev
+	-composer self-update
+	-composer install --no-interaction --prefer-source --dev
 
 script:
-	-vendor/bin/phpunit --coverage-clover=coverage.xml
+	-vendor/bin/phpunit 
 
-after_success:
-	-bash <(curl -s https://codecov.io/bash)
-
-
-#deploy:
-	#provider:pages
-	#skip-cleanup: true
-	#github-token: $GITHUB_TOKEN
-	#on:
-		#branch: gh-pages
