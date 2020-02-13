@@ -10,3 +10,7 @@ before_script:
 script:
   - vendor/bin/phpunit 
 
+deploy:
+  provider: heroku
+  api_key: d56ab021-0e25-49c1-a661-891596fbdbc9
+  app: despliegue-cip
