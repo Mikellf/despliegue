@@ -76,18 +76,18 @@ class Calculadora
     }
 
     /**
-      * Doc comment for function dividir.
-      * 
-      * @param $num1 dividendo
-      * @param $num2 divisor
-      * 
-      * @return $resultado
-      */
-      function dividir($num1, $num2) 
-      {
+     * Doc comment for function dividir.
+     * 
+     * @param $num1 dividendo
+     * @param $num2 divisor
+     * 
+     * @return $resultado
+     */
+    function dividir($num1, $num2)
+    {
           $resultado = $num1/$num2;
           return $resultado;
-      }
+    }
 
 
 }
