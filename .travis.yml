@@ -10,7 +10,7 @@ before_script:
 
 script:
   - vendor/bin/phpunit 
-  - docker build -t mikellf/despliegue:1.0 .
+  - docker build -t mikellf/despliegue .
 
 deploy:
   provider: heroku
